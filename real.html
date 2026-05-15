@@ -2,21 +2,19 @@
 <html lang="en">
 
 
-<!--
-- Complete the learning journey and Testimonials sections done in the class with actual data -> dont have data
-- ⁠Review and understand the “Learning Journey” Tailwind template
-- ⁠Shift the “hero image” to the right side of the screen -> Done
-- ⁠Update the images in the projects and achievement section ->done
-- ⁠Add hobbies and contact form section ->done
--->
+
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script>
     tailwind.config = {
       theme: {
@@ -86,7 +84,7 @@
           </a>
         </div>
       </div>
-      <img src="assets/PROFILE.jpeg" alt="" class="rounded-3xl w-full md:w-1/2">
+      <img src="assets/profile-circle.png" alt="" class="rounded-full w-full md:w-1/2">
 
     </div>
   </section>
@@ -143,6 +141,7 @@
       </div>
 
        <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+              <!-- For flappy bird, remember to put the extra info when the card is clicked-->
               <img class="rounded-3xl" src="assets/flappybird.png" alt="">
               <h3 class="text-lg mb-2 font-semibold pt-10">Flappy Bird</h3>
               <p class="text-gray-400 text-sm flex-grow my-6">I made this flappy bird game using SFML in C++. I really
@@ -164,6 +163,7 @@
       </div>
 
              <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+                  <!-- Remember for this to add challenges and extra info when the card is clicked.-->
                   <img class="rounded-3xl" src="assets/gravejumper.png" alt="">
                   <h3 class="text-lg mb-2 font-semibold pt-10">Grave Parkour</h3>
                   <p class="text-gray-400 text-sm flex-grow my-6">I made this <a target="_blank"
@@ -226,7 +226,7 @@
   </section>
 
 
-  <section id="Achievements">
+  <section id="Achievements" class="py-10">
 
     <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Achievements</h2>
     <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -302,8 +302,8 @@
           accusamus voluptatibus soluta pariatur. Ea.</p>
       </div>
       <!-- Add more cards here -->
-      
-     <div class="bg-gray-950 p-6 rounded-2xl border border-gray-950">
+
+      <div class="bg-gray-950 p-6 rounded-2xl border border-gray-950">
         <div class="flex items-center gap-4">
           <div>
             <img class="invert" src="assets/quotation.png" alt="">
@@ -332,14 +332,14 @@
     </div>
   </section>
 
-  <section id="Journey">
+  <section id="Journey" class="py-10">
 
     <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Learning Journey</h2>
 
     <div class="bg-gray-950 py-12 px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-16">
-          <p class="italic text-gray-50 mt-2">The journey leading up to this point</p>
+          <p class="italic text-gray-50 mt-2">The journey leading up to this point and what I have learnt</p>
         </div>
 
         <div class="relative">
@@ -357,7 +357,7 @@
             </div>
             <div
               class="z-10 order-1 md:order-2 flex items-center justify-center w-20 h-20 bg-white border-4 border-blue-50 rounded-full shadow-sm overflow-hidden p-2">
-              <img src="scratch-logo.png" alt="Scratch" class="w-full h-auto" />
+              <img src="assets/Heavy_ROBO_PIC.jpeg" alt="Scratch" class="w-full h-full" />
             </div>
             <div class="hidden md:block md:order-3 md:w-1/2"></div>
           </div>
@@ -392,8 +392,9 @@
       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl" src="assets/Tennis.jpeg" alt="">
         <h3 class="text-lg mb-2 font-semibold pt-10">Tennis</h3>
-        <p class="text-gray-400 text-sm flex-grow my-6">I like to play tennis in my free time, it is both a healthy
-          hobby and something I enjoy. I use to play at competitions but when COVID hit, I stopped</p>
+        <p class="text-gray-400 text-sm flex-grow my-6">I like to play tennis in my free time, it is both healthy and
+          something I enjoy. I use to play at competitions but when COVID hit, I stopped. I picked it up again towards
+          the start of Secondary 3, and have been playing ever since!</p>
 
       </div>
 
@@ -403,7 +404,8 @@
         <h3 class="text-lg mb-2 font-semibold pt-10">Game Development</h3>
         <p class="text-gray-400 text-sm flex-grow my-6">During the december holidays i decided to try game Development.
           I started learning unreal engine and i fell in love with it. However, after march, I had to limit this hobby
-          and use my time to study for my upcoming national exams. I will continue with Unreal Engine after my O levels are over.</p>
+          and use my time to study for my upcoming national exams. I will continue with Unreal Engine after my O levels
+          are over.</p>
 
       </div>
 
@@ -412,6 +414,45 @@
 
 
   </section>
+
+
+  <section id="contact me" class="py-10">
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Contact Me</h2>
+    <div class="flex items-center justify-center w-full">
+      <form class="space-y-4 max-w-3xl w-full" action="https://formspree.io/f/xeenbdoe" method="POST">
+        <div>
+          <label class="block text-sm font-medium mb-1">Name</label>
+          <input name="name" placeholder="Enter your name" type="text"
+            class="text-gray-700 w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-stone-900">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Email</label>
+          <input name="email" placeholder="Enter your Email" type="email"
+            class=" text-gray-700 w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-stone-900">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Message</label>
+          <textarea name="message" placeholder="Enter any feedback or questions you have for me!"
+            class=" text-gray-700 w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-stone-900"
+            rows="3"></textarea>
+        </div>
+        <button type="submit" class="px-4 py-2 bg-stone-900 text-white text-sm rounded">Send</button>
+      </form>
+    </div>
+
+
+  </section>
+
+  <footer class="bg-gray-900 py-10 w-full">
+    <div class="flex items-center justify-between w-full  ">
+      <p class="font-body px-16">© 2026 Divit Singhal, All rights reserved.</p>
+      <div class="flex gap-5 fa-2x px-16 ">
+      <a target="_blank" href="https://github.com/LitzXBG" class="fa-brands fa-github"></a>
+      <a target="_blank" class="fa-brands fa-instagram" href=""></a>
+      <a target="_blank" class="fa-brands fa-linkedin" href=""></a>
+      </div>
+    </div>
+  </footer>
 
 
 
