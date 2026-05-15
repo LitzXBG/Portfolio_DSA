@@ -1,0 +1,12 @@
+Navbar - About, Projects, Experience, Journey, Contact
+
+Hero Section — name, tagline, hero image, optional "Currently working on…" line
+About Me — short narrative
+
+Projects — the proof of capability- done
+Skills — the toolkit behind the projects-done
+Awards & Accolades — external validation-done
+Testimonials — credible voices reinforcing the work-done
+Learning Journey — the growth story- (almost done)
+Hobbies — the whole person
+Contact — clear CTA

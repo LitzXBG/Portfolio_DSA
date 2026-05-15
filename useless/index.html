@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun S. — Portfolio</title>
+
+    <!-- Step 1: Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Step 2: Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Step 3: Tailwind Config — fonts + accent color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ["Syne", "sans-serif"],
+              body: ["Inter", "sans-serif"],
+            },
+            colors: {
+              accent: "#6EE7B7",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="bg-gray-950 text-white font-body">
+    <!-- Ambient Glow — atmosphere layer -->
+    <div class="fixed inset-0 pointer-events-none">
+      <div
+        class="absolute top-0 left-1/4 w-96 h-96 bg-accent opacity-5 rounded-full blur-3xl"
+      ></div>
+      <div
+        class="absolute bottom-1/4 right-1/4 w-72 h-72 bg-blue-500 opacity-5 rounded-full blur-3xl"
+      ></div>
+    </div>
+
+    <!-- ===================== -->
+    <!--        NAVBAR         -->
+    <!-- ===================== -->
+    <nav
+      class="flex justify-between items-center px-8 py-4 bg-gray-950 shadow-sm"
+    >
+      <span class="text-xl font-bold font-display">Arjun S.</span>
+
+      <ul class="flex gap-6 text-sm text-gray-400">
+        <li>
+          <a href="#projects" class="hover:text-white transition-colors"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a href="#skills" class="hover:text-white transition-colors"
+            >Skills</a
+          >
+        </li>
+        <li>
+          <a href="#achievements" class="hover:text-white transition-colors"
+            >Achievements</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-white transition-colors"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ===================== -->
+    <!--         HERO          -->
+    <!-- ===================== -->
+    <section class="max-w-5xl mx-auto py-32 px-6">
+      <p class="text-accent text-sm font-medium tracking-widest uppercase mb-4">
+        Full Stack Developer
+      </p>
+
+      <h1 class="font-display text-7xl md:text-8xl font-bold leading-none mb-6">
+        Building<br />things that<br /><span class="text-accent">matter.</span>
+      </h1>
+
+      <p class="text-gray-400 text-xl max-w-lg mb-10">
+        I'm Arjun — a high schooler who builds real web apps, experiments with
+        AI, and ships things.
+      </p>
+
+      <a
+        href="#projects"
+        class="inline-block bg-accent text-gray-950 px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
+      >
+        See My Projects
+      </a>
+    </section>
+
+    <!-- ===================== -->
+    <!--       PROJECTS        -->
+    <!-- ===================== -->
+    <section id="projects" class="bg-gray-900 py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-display font-bold text-center mb-10">
+          Projects
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="relative p-px rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900"
+          >
+            <div
+              class="bg-gray-900 rounded-2xl p-6 h-full flex flex-col hover:shadow-lg transition-shadow"
+            >
+              <div class="text-4xl mb-4">🌦️</div>
+              <h3 class="font-semibold text-lg mb-2">Weather App</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">
+                Fetches real-time weather using an API. Built with HTML, CSS and
+                JavaScript.
+              </p>
+              <a
+                href="#"
+                class="text-sm font-medium text-accent hover:opacity-70 transition-opacity"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="relative p-px rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900"
+          >
+            <div
+              class="bg-gray-900 rounded-2xl p-6 h-full flex flex-col hover:shadow-lg transition-shadow"
+            >
+              <div class="text-4xl mb-4">📝</div>
+              <h3 class="font-semibold text-lg mb-2">To-Do List</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">
+                A clean task manager with local storage. First JavaScript
+                project.
+              </p>
+              <a
+                href="#"
+                class="text-sm font-medium text-accent hover:opacity-70 transition-opacity"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="relative p-px rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900"
+          >
+            <div
+              class="bg-gray-900 rounded-2xl p-6 h-full flex flex-col hover:shadow-lg transition-shadow"
+            >
+              <div class="text-4xl mb-4">🤖</div>
+              <h3 class="font-semibold text-lg mb-2">Chatbot</h3>
+              <p class="text-gray-400 text-sm mb-4 flex-grow">
+                A simple chatbot built using Python and basic NLP concepts.
+              </p>
+              <a
+                href="#"
+                class="text-sm font-medium text-accent hover:opacity-70 transition-opacity"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--        SKILLS         -->
+    <!-- ===================== -->
+    <section id="skills" class="bg-gray-950 py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-display font-bold text-center mb-10">
+          Skills
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <!-- Languages -->
+          <div>
+            <h3
+              class="text-sm font-medium text-gray-400 uppercase tracking-widest mb-4"
+            >
+              Languages
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >Python</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >JavaScript</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >HTML</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >CSS</span
+              >
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div>
+            <h3
+              class="text-sm font-medium text-gray-400 uppercase tracking-widest mb-4"
+            >
+              Tools
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >Git</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >VS Code</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >Figma</span
+              >
+            </div>
+          </div>
+
+          <!-- Platforms -->
+          <div>
+            <h3
+              class="text-sm font-medium text-gray-400 uppercase tracking-widest mb-4"
+            >
+              Platforms
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >GitHub</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >Vercel</span
+              >
+              <span
+                class="px-4 py-2 rounded-full border border-gray-700 text-gray-300 text-sm hover:border-accent hover:text-accent transition-colors cursor-default"
+                >Replit</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--     ACHIEVEMENTS      -->
+    <!-- ===================== -->
+    <section id="achievements" class="bg-gray-900 py-16 px-6">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-display font-bold text-center mb-10">
+          Achievements
+        </h2>
+
+        <div class="border-l border-gray-700 ml-4 flex flex-col">
+          <!-- Item 1 -->
+          <div class="relative pl-8 pb-10">
+            <div
+              class="absolute -left-2 top-1 w-4 h-4 rounded-full bg-accent border-2 border-gray-900"
+            ></div>
+            <span
+              class="text-xs text-accent font-medium uppercase tracking-widest"
+              >2024</span
+            >
+            <h3 class="text-lg font-semibold text-white mt-1 mb-1">
+              1st Place — School Hackathon
+            </h3>
+            <p class="text-gray-400 text-sm">
+              Built a waste management app in 24 hours. Judged on impact and
+              execution.
+            </p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="relative pl-8 pb-10">
+            <div
+              class="absolute -left-2 top-1 w-4 h-4 rounded-full bg-accent border-2 border-gray-900"
+            ></div>
+            <span
+              class="text-xs text-accent font-medium uppercase tracking-widest"
+              >2024</span
+            >
+            <h3 class="text-lg font-semibold text-white mt-1 mb-1">
+              Python Certificate — CS50P
+            </h3>
+            <p class="text-gray-400 text-sm">
+              Completed Harvard's CS50 Python course with distinction.
+            </p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="relative pl-8 pb-10">
+            <div
+              class="absolute -left-2 top-1 w-4 h-4 rounded-full bg-accent border-2 border-gray-900"
+            ></div>
+            <span
+              class="text-xs text-accent font-medium uppercase tracking-widest"
+              >2023</span
+            >
+            <h3 class="text-lg font-semibold text-white mt-1 mb-1">
+              Top 10% — ZCO Qualifier
+            </h3>
+            <p class="text-gray-400 text-sm">
+              Qualified for the Zonal Computing Olympiad regional round.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--        CONTACT        -->
+    <!-- ===================== -->
+    <section id="contact" class="bg-gray-950 py-24 px-6 text-center">
+      <div class="max-w-xl mx-auto">
+        <h2 class="text-4xl font-display font-bold mb-4">Get In Touch</h2>
+
+        <p class="text-gray-400 text-lg mb-10">
+          I'm always open to new opportunities, collaborations, or just a
+          conversation.
+        </p>
+
+        <a
+          href="mailto:arjun@email.com"
+          class="inline-block bg-accent text-gray-950 font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity mb-8"
+        >
+          Send me an email
+        </a>
+
+        <div class="flex justify-center gap-6">
+          <a
+            href="https://github.com"
+            class="text-gray-400 text-sm hover:text-accent transition-colors"
+          >
+            GitHub ↗
+          </a>
+          <a
+            href="https://linkedin.com"
+            class="text-gray-400 text-sm hover:text-accent transition-colors"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--        FOOTER         -->
+    <!-- ===================== -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-8 px-6">
+      <div
+        class="max-w-5xl mx-auto flex justify-between items-center text-sm text-gray-500"
+      >
+        <p>Designed and built by <span class="text-accent">Arjun S.</span></p>
+        <p>© 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>

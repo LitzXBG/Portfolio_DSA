@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Syne", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          colors: {
+            accent: "#6EE7B7",
+          },
+        },
+      },
+    };
+  </script>
+  <title>Divit's Portfolio</title>
+</head>
+
+<body class="bg-gray-950 text-white font-body">
+  <nav class=" sticky top-0 flex justify-between items-center px-8 py-4 bg-gray-950 shadow-sm">
+    <span class="text-xl font-bold font-display">Divit Singhal</span>
+    <ul class="flex gap-6 text-sm text-gray-400 text-xl font-bold font-display">
+      <li><a href="real.html" class="hover:text-white transition-colors duration-300 ease-in-out">Projects</a></li>
+      <li><a href="#skills" class="hover:text-white transition-colors duration-300 ease-in-out">Skills</a></li>
+      <li><a href="#ach" class="hover:text-white transition-colors duration-300 ease-in-out">Achievements</a></li>
+      <li><a href="#jour" class="hover:text-white transition-colors duration-300 ease-in-out">Journey</a></li>
+      <li><a href="#cont" class="hover:text-white transition-colors duration-300 ease-in-out">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section >
+    <div class="flex items-center justify-center ">
+      <p class="font-display text-5xl">VJC_2025</p>
+    </div>
+    <div class="flex items-center justify-center pt-20 gap-10">
+      <img  class="rounded-3xl max-w-4xl " src="assets/Heavy.JPG " alt="">
+    <img  class="rounded-3xl max-w-4xl" src="assets/VJC_2025.JPG" alt="">
+  </div>
+
+  <div class="flex items-center justify-center pt-20 ">
+    <p class="font-body text-2xl">I had participated in the DSTA-DSO-VJC Challenge in 2025 heavy-weight category</p>
+  </div>
+  </section>
+</body>
+</html>
+

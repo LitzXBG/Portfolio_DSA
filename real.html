@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--
+- Complete the learning journey and Testimonials sections done in the class with actual data -> dont have data
+- ⁠Review and understand the “Learning Journey” Tailwind template
+- ⁠Shift the “hero image” to the right side of the screen -> Done
+- ⁠Update the images in the projects and achievement section ->done
+- ⁠Add hobbies and contact form section ->done
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ["Syne", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          colors: {
+            accent: "#6EE7B7",
+          },
+        },
+      },
+    };
+  </script>
+  <title>Divit's Portfolio</title>
+</head>
+
+<body class="bg-gray-950 text-white font-body">
+  <nav class=" sticky top-0 flex justify-between items-center px-8 py-4 bg-gray-950 shadow-sm">
+    <span class="text-xl font-bold font-display">Divit Singhal</span>
+    <ul class="flex gap-6 text-sm text-gray-400 text-xl font-bold font-display">
+
+      <li><a href="#proj" class="hover:text-white transition-colors duration-300 ease-in-out">About</a></li>
+      <li><a href="#skills" class="hover:text-white transition-colors duration-300 ease-in-out">Projects</a></li>
+      <li><a href="#ach" class="hover:text-white transition-colors duration-300 ease-in-out">Experience</a></li>
+      <li><a href="#jour" class="hover:text-white transition-colors duration-300 ease-in-out">Journey</a></li>
+      <li><a href="#cont" class="hover:text-white transition-colors duration-300 ease-in-out">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="max-w-5xl mx-auto py-32 px-6">
+
+    <div class="flex flex-col md:flex-row items-center gap-10">
+
+
+
+
+
+      <div class="md:w-1/2">
+        <p class="text-accent text-sm font-medium tracking-widest uppercase mb-4">
+          Robotics Enthusiast
+        </p>
+
+        <h1 class="font-display text-5xl md:text-7xl mb-6 font-bold">
+          Building <span class="text-accent">robots</span>
+        </h1>
+
+        <p class="text-gray-400 font-body text-lg mb-6">
+          I am Divit from Hai Sing Catholic School. I am highly passionate in
+          Robotics and coding, especially VEX Robotics. I have gotten many achievements in VEX based competitions as
+          well as
+          some coding competitions. I have made many self-made projects in my free time ever since i was 9. I also dable
+          in
+          a bit of tennis when i have the time
+        </p>
+
+        <div class="flex gap-5">
+          <a href="#achievements"
+            class="inline-block py-4 border border-[#A7F3D0] text-[#A7F3D0] px-6 rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition ">
+            Achievements
+          </a>
+
+          <a href="#projects"
+            class="inline-block py-4 border border-[#A7F3D0] text-[#A7F3D0] px-6 rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition ">
+            Projects
+          </a>
+        </div>
+      </div>
+      <img src="assets/PROFILE.jpeg" alt="" class="rounded-3xl w-full md:w-1/2">
+
+    </div>
+  </section>
+
+  <section id="about me" class="bg-gray-900 py-10 px-6">
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">About Me</h2>
+    <div class="max-w-7xl mx-auto p-4 text-lg">
+
+      I am Divit Singhal from Hai Sing Catholic School. Welcome to my Digital portfolio! This is where I have showcased
+      all
+      of my talents and achievements all the way from the start of my journy to where I currently am. From my first
+      solar powered car
+      to my crane VEX based robot made this year. I am deeply interested in Robotics and coding. I have made many
+      projects incoroprating these aspects.
+      I have quite some experience in coding especially Python and C++(including for VEX). I was also an organiser for
+      this
+      youth coding organisation called BuildingBLocs for about a year and I'll rejoin again after my O levels. I have
+      learnt to be very open to new ideas and learnt how to manage large amounts of people I have all
+      of these interests
+      and you might percieve me as a nerd,
+      However, I actually do enjoy volunteering, debating ( participating in Mock Law Summits ) and Tennis!
+      I really hope you enjoy my digital space where I get to tell you more about myself!
+    </div>
+  </section>
+
+  <section id="projects" class="bg-gray-5 py-10 px-6">
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Projects</h2>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/Heavy_ROBO_PIC.jpeg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">VJC 2025 Heavy weight robot</h3>
+        <p class="text-gray-400 text-sm flex-grow my-6">The robot I had made for the 2025 DSTA-DSO-VJC heavy weight
+          challenge.</p>
+        <a href="Heavy.html"
+          class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project </a>
+      </div>
+
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+          <img class="rounded-3xl  object-scale-down" src="assets/Light_Robot.JPG" alt="">
+          <h3 class="text-lg mb-2 font-semibold pt-10">VJC 2024 Light weight robot</h3>
+          <p class="text-gray-400 text-sm flex-grow my-6">The robot I had made for the 2024 DSTA-DSO-VJC Light weight
+            challenge.</p>
+          <a href="#"
+            class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
+      </div>
+
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+            <img class="rounded-3xl" src="assets/Drone.jpeg" alt="">
+            <h3 class="text-lg mb-2 font-semibold pt-10">Drone</h3>
+            <p class="text-gray-400 text-sm flex-grow my-6">I made this drone when i was 12. I made it out of styrofoam
+              and coreless motors.</p>
+            <a href="#"
+              class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
+      </div>
+
+       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+              <img class="rounded-3xl" src="assets/flappybird.png" alt="">
+              <h3 class="text-lg mb-2 font-semibold pt-10">Flappy Bird</h3>
+              <p class="text-gray-400 text-sm flex-grow my-6">I made this flappy bird game using SFML in C++. I really
+                wanted to make a game, but at the time I only knew C++, so i found a platform where I could code my game
+                in C++. <a target="_blank" class="underline text-blue-500"
+                  href="https://github.com/LitzXBG/flappy-bird.git">GitHub Repository.</a> <a
+                  href="https://docs.google.com/presentation/d/1HOJ5lCoCMygUFMoHdn-rv4qonaa820xZBLeaDX8TfNY/edit?usp=sharing"
+                  target="_blank" class="underline text-blue-500">game breakdown.</a></p>
+              <a href="#"
+                class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
+      </div>
+       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+                <img class="rounded-3xl" src="assets/Waterwheel.jpg" alt="">
+                <h3 class="text-lg mb-2 font-semibold pt-10">Crane/Forklift</h3>
+                <p class="text-gray-400 text-sm flex-grow my-6">I made this along with 2 of my good friends(Darius and
+                  Jason) it took us 8 sessions to make.</p>
+                <a href="#"
+                  class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
+      </div>
+
+             <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+                  <img class="rounded-3xl" src="assets/gravejumper.png" alt="">
+                  <h3 class="text-lg mb-2 font-semibold pt-10">Grave Parkour</h3>
+                  <p class="text-gray-400 text-sm flex-grow my-6">I made this <a target="_blank"
+                      class="underline text-blue-500" href="https://litzxbg.itch.io/grave-parkour">game</a> part of a
+                    game jam organised by
+                    HackClub. I got 6th place in this game jam but I learnt many valuable lessons after the gamejam link
+                  </p>
+                  <a href="#"
+                    class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id=" skills" class="bg-gray-900 py-10 px-6">
+
+                    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Skills</h2>
+
+                    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      <div
+                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+                        <img class="h-20 justify-center"
+                          src="assets/[CITYPNG.COM]HD Python Logo Symbol Transparent PNG - 2000x2000.png" alt="">
+                        <h3 class="text-lg mb-2  font-semibold pt-10">Python</h3>
+                      </div>
+
+                      <div
+                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+                        <img class="h-20 " src="assets/C++_logo.png" alt="">
+                        <h3 class="text-lg  mb-2 font-semibold pt-10">C++</h3>
+                      </div>
+
+
+
+                      <div
+                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+                        <img class="h-20 justify-center" src="assets/HTML.png" alt="">
+                        <h3 class="text-lg mb-2  font-semibold pt-10">HTML</h3>
+                      </div>
+
+                      <div
+                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+                        <img class="h-20 justify-center" src="assets/CSS.png" alt="">
+                        <h3 class="text-lg mb-2  font-semibold pt-10">CSS</h3>
+                      </div>
+
+                      <div
+                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+                        <img class="h-20 justify-center" src="assets/VEX.png" alt="">
+                        <h3 class="text-lg mb-2  font-semibold pt-10">VEX</h3>
+                      </div>
+
+
+
+
+                    </div>
+
+
+  </section>
+
+
+  <section id="Achievements">
+
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Achievements</h2>
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/HeavyWeight.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">DSTA-DSO-VJC 2025 Heavy weight</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Third Place</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/LightWeight.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">DSTA-DSO-VJC 2024 Light Weight</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>First Place</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/RoboClash.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Roboclash 2025</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Fourth Place</b></p>
+      </div>
+
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/HaiStar.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Hai Star Award</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Best in Science(Secondary 1)</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/campfire.png" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">HackClub Campfire</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>6th Place</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/EdusaveScholarship.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Edusave Scholarship</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>top 10% academic grades in singapore</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/SJPO.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Singapore Junior Physics Olympiad (2025)</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Certificate of participation</b></p>
+      </div>
+
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl " src="assets/Bebras.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Bebras Competition</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Bronze Award</b></p>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section id="Testimonial" class="bg-gray-900 py-10 px-6">
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Testimonials</h2>
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Testimonial 1 -->
+      <div class="bg-gray-950 p-6 rounded-2xl border border-gray-950">
+        <div class="flex items-center gap-4">
+          <div>
+            <img class="invert" src="assets/quotation.png" alt="">
+            <h4 class="justify-center font-bold text-slate-0">Ms Zhao Xu Ying</h4>
+            <p class="text-sm text-slate-0">Robotics Teacher In Charge</p>
+          </div>
+        </div>
+        <p class="mt-4 text-slate-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum animi
+          eum, minus corporis quae itaque voluptate aperiam perferendis architecto nulla debitis neque id minima
+          accusamus voluptatibus soluta pariatur. Ea.</p>
+      </div>
+      <!-- Add more cards here -->
+      
+     <div class="bg-gray-950 p-6 rounded-2xl border border-gray-950">
+        <div class="flex items-center gap-4">
+          <div>
+            <img class="invert" src="assets/quotation.png" alt="">
+            <h4 class="justify-center font-bold text-slate-0">Mr Abhinav Bharadwaj</h4>
+            <p class="text-sm text-slate-0">Coding Instructor</p>
+          </div>
+        </div>
+        <p class="mt-4 text-slate-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum animi
+          eum, minus corporis quae itaque voluptate aperiam perferendis architecto nulla debitis neque id minima
+          accusamus voluptatibus soluta pariatur. Ea.</p>
+      </div>
+
+      <div class="bg-gray-950 p-6 rounded-2xl border border-gray-950">
+        <div class="flex items-center gap-4">
+          <div>
+            <img class="invert" src="assets/quotation.png" alt="">
+            <h4 class="justify-center font-bold text-slate-0">Ms Cheryl Ng Bee Leng</h4>
+            <p class="text-sm text-slate-0">Robotics Teacher In Charge</p>
+          </div>
+        </div>
+        <p class="mt-4 text-slate-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt laborum animi
+          eum, minus corporis quae itaque voluptate aperiam perferendis architecto nulla debitis neque id minima
+          accusamus voluptatibus soluta pariatur. Ea.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="Journey">
+
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Learning Journey</h2>
+
+    <div class="bg-gray-950 py-12 px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+          <p class="italic text-gray-50 mt-2">The journey leading up to this point</p>
+        </div>
+
+        <div class="relative">
+          <div class="absolute left-4 md:left-1/2 h-full w-0.5 bg-gray-50 transform md:-translate-x-1/2"></div>
+
+          <div class="mb-16 flex flex-col md:flex-row items-start w-full">
+            <div class="order-2 md:order-1 md:w-1/2 w-full pl-12 md:pl-0 md:pr-12 text-left md:text-right">
+              <span class="block text-xl font-bold text-gray-50">May 2026</span>
+              <h3 class="text-2xl font-extrabold text-gray-50 mb-2">VEX Based Crane</h3>
+              <p class="text-gray-50 leading-relaxed">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem omnis, alias eligendi, eaque nostrum
+                sapiente nesciunt atque et consectetur consequuntur recusandae delectus! Accusamus labore atque
+                voluptatibus magnam expedita repellat et.
+              </p>
+            </div>
+            <div
+              class="z-10 order-1 md:order-2 flex items-center justify-center w-20 h-20 bg-white border-4 border-blue-50 rounded-full shadow-sm overflow-hidden p-2">
+              <img src="scratch-logo.png" alt="Scratch" class="w-full h-auto" />
+            </div>
+            <div class="hidden md:block md:order-3 md:w-1/2"></div>
+          </div>
+
+          <div class="mb-16 flex flex-col md:flex-row items-start w-full">
+            <div class="hidden md:block md:w-1/2"></div>
+            <div
+              class="z-10 flex items-center justify-center w-20 h-20 bg-white border-4 border-blue-50 rounded-full shadow-sm overflow-hidden p-2">
+              <img src="book-icon.png" alt="Studies" class="w-full h-auto" />
+            </div>
+            <div class="md:w-1/2 w-full pl-12 text-left">
+              <span class="block text-xl font-bold text-gray-50">Sept 2021 - March 2023</span>
+              <h3 class="text-2xl font-extrabold text-gray-50 mb-2">My Break from Coding</h3>
+              <p class="text-gray-50 leading-relaxed">
+                I took a long break from coding to focus on my studies. My examinations were approaching, and I believed
+                that focusing on them was more important.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id=" Hobbies" class="bg-gray-900 py-10 px-6">
+
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Beyond Robotics</h2>
+
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl" src="assets/Tennis.jpeg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Tennis</h3>
+        <p class="text-gray-400 text-sm flex-grow my-6">I like to play tennis in my free time, it is both a healthy
+          hobby and something I enjoy. I use to play at competitions but when COVID hit, I stopped</p>
+
+      </div>
+
+
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl invert" src="assets/Unreal.png" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Game Development</h3>
+        <p class="text-gray-400 text-sm flex-grow my-6">During the december holidays i decided to try game Development.
+          I started learning unreal engine and i fell in love with it. However, after march, I had to limit this hobby
+          and use my time to study for my upcoming national exams. I will continue with Unreal Engine after my O levels are over.</p>
+
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+
+
+
+</body>
+
+</html>
