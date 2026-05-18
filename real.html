@@ -30,6 +30,15 @@
       },
     };
   </script>
+
+  <style>
+    .card-media {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  </style>
   <title>Divit's Portfolio</title>
 </head>
 
@@ -84,143 +93,163 @@
           </a>
         </div>
       </div>
-      <img src="assets/profile-circle.png" alt="" class="rounded-full w-full md:w-1/2">
+      <img src="assets/PROFILE.jpeg" alt="" class="rounded-3xl w-full md:w-1/2">
 
     </div>
   </section>
 
   <section id="about me" class="bg-gray-900 py-10 px-6">
     <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">About Me</h2>
-    <div class="max-w-7xl mx-auto p-4 text-lg">
+    <div class="max-w-3xl mx-auto p-4 text-lg space-y-4 leading-relaxed">
 
-      I am Divit Singhal from Hai Sing Catholic School. Welcome to my Digital portfolio! This is where I have showcased
-      all
-      of my talents and achievements all the way from the start of my journy to where I currently am. From my first
-      solar powered car
-      to my crane VEX based robot made this year. I am deeply interested in Robotics and coding. I have made many
-      projects incoroprating these aspects.
-      I have quite some experience in coding especially Python and C++(including for VEX). I was also an organiser for
-      this
-      youth coding organisation called BuildingBLocs for about a year and I'll rejoin again after my O levels. I have
-      learnt to be very open to new ideas and learnt how to manage large amounts of people I have all
-      of these interests
-      and you might percieve me as a nerd,
-      However, I actually do enjoy volunteering, debating ( participating in Mock Law Summits ) and Tennis!
-      I really hope you enjoy my digital space where I get to tell you more about myself!
+      <p class="text-gray-300">
+        I am Divit Singhal from Hai Sing Catholic School. Welcome to my Digital portfolio! This is where I have
+        showcased
+        all of my talents and achievements all the way from the start of my journey to where I currently am. From my
+        first
+        solar powered car to my crane VEX based robot made this year. I am deeply interested in Robotics and coding. I
+        have made many
+        projects incorporating these aspects.
+      </p>
+      <p class="text-gray-300">
+        I have quite some experience in coding especially Python and C++ (including for VEX). I was also an organiser
+        for
+        this youth coding organisation called BuildingBLocs for about a year and I'll rejoin again after my O levels. I
+        have
+        learnt to be very open to new ideas and learnt how to manage large amounts of people.
+      </p>
+      <p class="text-gray-300">
+        I have all of these interests and you might perceive me as a nerd. However, I actually do enjoy volunteering,
+        debating
+        (participating in Mock Law Summits) and Tennis! I really hope you enjoy my digital space where I get to tell you
+        more about myself!
+      </p>
     </div>
   </section>
 
-  <section id="projects" class="bg-gray-5 py-10 px-6">
-    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Projects</h2>
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
-        <img class="rounded-3xl " src="assets/Heavy_ROBO_PIC.jpeg" alt="">
-        <h3 class="text-lg mb-2 font-semibold pt-10">VJC 2025 Heavy weight robot</h3>
-        <p class="text-gray-400 text-sm flex-grow my-6">The robot I had made for the 2025 DSTA-DSO-VJC heavy weight
-          challenge.</p>
+  <section id="projects" class="py-20 px-6">
+    <h2 class="font-display font-bold text-4xl text-center mb-12">Projects</h2>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/Heavy_ROBO_PIC.jpeg" alt="VJC 2025 Heavy weight robot">
+        <h3 class="text-xl font-semibold mt-6 mb-3">VJC 2025 Heavy weight robot</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          The robot I had made for the 2025 DSTA-DSO-VJC heavy weight challenge.
+        </p>
         <a href="Heavy.html"
-          class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project </a>
-      </div>
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
 
-      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
-          <img class="rounded-3xl  object-scale-down" src="assets/Light_Robot.JPG" alt="">
-          <h3 class="text-lg mb-2 font-semibold pt-10">VJC 2024 Light weight robot</h3>
-          <p class="text-gray-400 text-sm flex-grow my-6">The robot I had made for the 2024 DSTA-DSO-VJC Light weight
-            challenge.</p>
-          <a href="#"
-            class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
-      </div>
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/Light_Robot.JPG" alt="VJC 2024 Light weight robot">
+        <h3 class="text-xl font-semibold mt-6 mb-3">VJC 2024 Light weight robot</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          The robot I had made for the 2024 DSTA-DSO-VJC Light weight challenge.
+        </p>
+        <a href="#"
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
 
-      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
-            <img class="rounded-3xl" src="assets/Drone.jpeg" alt="">
-            <h3 class="text-lg mb-2 font-semibold pt-10">Drone</h3>
-            <p class="text-gray-400 text-sm flex-grow my-6">I made this drone when i was 12. I made it out of styrofoam
-              and coreless motors.</p>
-            <a href="#"
-              class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
-      </div>
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/Drone.jpeg" alt="Drone">
+        <h3 class="text-xl font-semibold mt-6 mb-3">Drone</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          I made this drone when I was 12. I made it out of styrofoam and coreless motors.
+        </p>
+        <a href="#"
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
 
-       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
-              <!-- For flappy bird, remember to put the extra info when the card is clicked-->
-              <img class="rounded-3xl" src="assets/flappybird.png" alt="">
-              <h3 class="text-lg mb-2 font-semibold pt-10">Flappy Bird</h3>
-              <p class="text-gray-400 text-sm flex-grow my-6">I made this flappy bird game using SFML in C++. I really
-                wanted to make a game, but at the time I only knew C++, so i found a platform where I could code my game
-                in C++. <a target="_blank" class="underline text-blue-500"
-                  href="https://github.com/LitzXBG/flappy-bird.git">GitHub Repository.</a> <a
-                  href="https://docs.google.com/presentation/d/1HOJ5lCoCMygUFMoHdn-rv4qonaa820xZBLeaDX8TfNY/edit?usp=sharing"
-                  target="_blank" class="underline text-blue-500">game breakdown.</a></p>
-              <a href="#"
-                class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
-      </div>
-       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
-                <img class="rounded-3xl" src="assets/Waterwheel.jpg" alt="">
-                <h3 class="text-lg mb-2 font-semibold pt-10">Crane/Forklift</h3>
-                <p class="text-gray-400 text-sm flex-grow my-6">I made this along with 2 of my good friends(Darius and
-                  Jason) it took us 8 sessions to make.</p>
-                <a href="#"
-                  class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
-      </div>
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/flappybird.png" alt="Flappy Bird">
+        <h3 class="text-xl font-semibold mt-6 mb-3">Flappy Bird</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          I made this flappy bird game using SFML in C++. I really wanted to make a game, but at the time I only knew
+          C++, so I found a platform where I could code my game in C++.
+          <a target="_blank" class="underline text-blue-400 hover:text-blue-300"
+            href="https://github.com/LitzXBG/flappy-bird.git">GitHub Repository.</a>
+          <a href="https://docs.google.com/presentation/d/1HOJ5lCoCMygUFMoHdn-rv4qonaa820xZBLeaDX8TfNY/edit?usp=sharing"
+            target="_blank" class="underline text-blue-400 hover:text-blue-300">Game breakdown.</a>
+        </p>
+        <a href="#"
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
 
-             <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
-                  <!-- Remember for this to add challenges and extra info when the card is clicked.-->
-                  <img class="rounded-3xl" src="assets/gravejumper.png" alt="">
-                  <h3 class="text-lg mb-2 font-semibold pt-10">Grave Parkour</h3>
-                  <p class="text-gray-400 text-sm flex-grow my-6">I made this <a target="_blank"
-                      class="underline text-blue-500" href="https://litzxbg.itch.io/grave-parkour">game</a> part of a
-                    game jam organised by
-                    HackClub. I got 6th place in this game jam but I learnt many valuable lessons after the gamejam link
-                  </p>
-                  <a href="#"
-                    class="inline-block py-4 border border-[#A7F3D0]  my-7 text-[#A7F3D0]  px-6 rounded-full bg-[A7F3D0] bg-gray-950  hover:text-[#34e995] hover:border-[#34e995] hover:bg-gray-910 transition-colors duration-300 ease-in-out  "">View Project</a>
-      </div>
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/Waterwheel.jpg" alt="Crane/Forklift">
+        <h3 class="text-xl font-semibold mt-6 mb-3">Crane/Forklift</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          I made this along with 2 of my good friends (Darius and Jason). It took us 8 sessions to make.
+        </p>
+        <a href="#"
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
+
+      <article class=" bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col">
+        <img class="card-media" src="assets/grave_jumper.png" alt="Grave Parkour">
+        <h3 class="text-xl font-semibold mt-6 mb-3">Grave Parkour</h3>
+        <p class="text-gray-400 text-sm leading-relaxed flex-grow mb-6">
+          I made this <a target="_blank" class="underline text-blue-400 hover:text-blue-300"
+            href="https://litzxbg.itch.io/grave-parkour">game</a> as part of a game jam organised by HackClub. I got 6th
+          place in this game jam, but I learnt many valuable lessons afterwards.
+        </p>
+        <a href="#"
+          class="self-start inline-block py-3 px-6 border border-[#A7F3D0] text-[#A7F3D0] rounded-full bg-gray-950 hover:text-[#34e995] hover:border-[#34e995] transition-colors duration-300">
+          View Project
+        </a>
+      </article>
 
     </div>
   </section>
-
 
   <section id=" skills" class="bg-gray-900 py-10 px-6">
 
-                    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Skills</h2>
+    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Skills</h2>
 
-                    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                      <div
-                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
-                        <img class="h-20 justify-center"
-                          src="assets/[CITYPNG.COM]HD Python Logo Symbol Transparent PNG - 2000x2000.png" alt="">
-                        <h3 class="text-lg mb-2  font-semibold pt-10">Python</h3>
-                      </div>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+        <img class="h-20 justify-center" src="assets/[CITYPNG.COM]HD Python Logo Symbol Transparent PNG - 2000x2000.png"
+          alt="">
+        <h3 class="text-lg mb-2  font-semibold pt-10">Python</h3>
+      </div>
 
-                      <div
-                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
-                        <img class="h-20 " src="assets/C++_logo.png" alt="">
-                        <h3 class="text-lg  mb-2 font-semibold pt-10">C++</h3>
-                      </div>
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+        <img class="h-20 " src="assets/C++_logo.png" alt="">
+        <h3 class="text-lg  mb-2 font-semibold pt-10">C++</h3>
+      </div>
 
 
 
-                      <div
-                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
-                        <img class="h-20 justify-center" src="assets/HTML.png" alt="">
-                        <h3 class="text-lg mb-2  font-semibold pt-10">HTML</h3>
-                      </div>
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+        <img class="h-20 justify-center" src="assets/HTML.png" alt="">
+        <h3 class="text-lg mb-2  font-semibold pt-10">HTML</h3>
+      </div>
 
-                      <div
-                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
-                        <img class="h-20 justify-center" src="assets/CSS.png" alt="">
-                        <h3 class="text-lg mb-2  font-semibold pt-10">CSS</h3>
-                      </div>
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+        <img class="h-20 justify-center" src="assets/CSS.png" alt="">
+        <h3 class="text-lg mb-2  font-semibold pt-10">CSS</h3>
+      </div>
 
-                      <div
-                        class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
-                        <img class="h-20 justify-center" src="assets/VEX.png" alt="">
-                        <h3 class="text-lg mb-2  font-semibold pt-10">VEX</h3>
-                      </div>
+      <div class="bg-gray-950 rounded-3xl p-6 border border-accent flex flex-col justify-center items-center">
+        <img class="h-20 justify-center" src="assets/VEX.png" alt="">
+        <h3 class="text-lg mb-2  font-semibold pt-10">VEX</h3>
+      </div>
 
 
 
 
-                    </div>
+    </div>
 
 
   </section>
@@ -228,7 +257,7 @@
 
   <section id="Achievements" class="py-10">
 
-    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Achievements</h2>
+    <h2 class="  font-bold text-3xl text-center my-10 hover: ">Achievements</h2>
     <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl " src="assets/HeavyWeight.jpg" alt="">
@@ -236,7 +265,7 @@
         <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Third Place</b></p>
       </div>
 
-      <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl " src="assets/LightWeight.jpg" alt="">
         <h3 class="text-lg mb-2 font-semibold pt-10">DSTA-DSO-VJC 2024 Light Weight</h3>
         <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>First Place</b></p>
@@ -257,8 +286,8 @@
 
       <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl " src="assets/campfire.png" alt="">
-        <h3 class="text-lg mb-2 font-semibold pt-10">HackClub Campfire</h3>
-        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>6th Place</b></p>
+        <h3 class="text-lg mb-2 font-semibold pt-10">Service Excellence Award</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Robotics Leadership</b></p>
       </div>
 
       <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
@@ -269,8 +298,8 @@
 
       <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl " src="assets/SJPO.jpg" alt="">
-        <h3 class="text-lg mb-2 font-semibold pt-10">Singapore Junior Physics Olympiad (2025)</h3>
-        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Certificate of participation</b></p>
+        <h3 class="text-lg mb-2 font-semibold pt-10">Hai Excellence Award</h3>
+        <p class="text-gray-0 text-lg text-blue-400 flex-grow my-6"><b>Top 10% of cohort in 2025</b></p>
       </div>
 
       <div class="bg-gray-950 rounded-3xl p-6 border border-accent">
@@ -332,54 +361,138 @@
     </div>
   </section>
 
-  <section id="Journey" class="py-10">
+  <section id="journey" class="py-20 px-6">
+    <h2 class="font-display font-bold text-4xl text-center mb-4">Learning Journey</h2>
+    <p class="italic text-gray-400 text-center mb-16">The journey leading up to this point and what I have learnt</p>
 
-    <h2 class="font-display font-bold text-3xl text-center my-10 hover: ">Learning Journey</h2>
+    <div class="max-w-4xl mx-auto">
+      <div class="relative">
 
-    <div class="bg-gray-950 py-12 px-4">
-      <div class="max-w-4xl mx-auto">
-        <div class="text-center mb-16">
-          <p class="italic text-gray-50 mt-2">The journey leading up to this point and what I have learnt</p>
+        <div class="absolute left-4 md:left-1/2 top-0 h-full w-0.5 bg-gray-700 transform md:-translate-x-1/2"></div>
+
+
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="order-2 md:order-1 md:w-1/2 w-full pl-16 md:pl-0 md:pr-12 text-left md:text-right">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">April 2026</span>
+            <h3 class="text-2xl font-bold text-white mb-3">VEX Based Crane</h3>
+            <!--Check how to make the circles bigger-->
+            <p class="text-gray-400 leading-relaxed">
+              This year I made a VEX crane that can lift Heavy things. I made this with my friends because I wanted to
+              learn how to independently build using VEX. After building the crane, I have learnt how to test for
+              rounded screws, design robots using OnShape and building bases.
+            </p>
+          </div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <img src="assets/Heavy_ROBO_PIC.jpeg" alt="VEX Based Crane" class="w-full h-full object-cover" />
+          </div>
+          <div class="hidden md:block md:order-3 md:w-1/2"></div>
         </div>
 
-        <div class="relative">
-          <div class="absolute left-4 md:left-1/2 h-full w-0.5 bg-gray-50 transform md:-translate-x-1/2"></div>
 
-          <div class="mb-16 flex flex-col md:flex-row items-start w-full">
-            <div class="order-2 md:order-1 md:w-1/2 w-full pl-12 md:pl-0 md:pr-12 text-left md:text-right">
-              <span class="block text-xl font-bold text-gray-50">May 2026</span>
-              <h3 class="text-2xl font-extrabold text-gray-50 mb-2">VEX Based Crane</h3>
-              <p class="text-gray-50 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem omnis, alias eligendi, eaque nostrum
-                sapiente nesciunt atque et consectetur consequuntur recusandae delectus! Accusamus labore atque
-                voluptatibus magnam expedita repellat et.
-              </p>
-            </div>
-            <div
-              class="z-10 order-1 md:order-2 flex items-center justify-center w-20 h-20 bg-white border-4 border-blue-50 rounded-full shadow-sm overflow-hidden p-2">
-              <img src="assets/Heavy_ROBO_PIC.jpeg" alt="Scratch" class="w-full h-full" />
-            </div>
-            <div class="hidden md:block md:order-3 md:w-1/2"></div>
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="hidden md:block md:w-1/2"></div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <i class="fa-solid fa-book text-accent text-xl"></i>
           </div>
+          <div class="md:w-1/2 w-full pl-16 md:pl-12 text-left">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">March 2026</span>
+            <h3 class="text-2xl font-bold text-white mb-3">Hackclub Campfire</h3>
+            <p class="text-gray-400 leading-relaxed">
+              I joined this compeition because it was a gamejam. I remember really wanting to join a gamejam, so I did
+              earlier this year along with my classmate Dexden. The theme was beneath the surface and I decided to make
+              a game titled "Grave Jumper". All made in pygame. This shows my Proficiency in Python. I know Object
+              Oriented Programming and Data structures and algorithms. From this game jam, I learnt time
+              management(there was a massive time crunch and i cut so much content) and Teamwork. If there was another
+              opportunity i would definitely do it again.
+            </p>
+          </div>
+        </div>
 
-          <div class="mb-16 flex flex-col md:flex-row items-start w-full">
-            <div class="hidden md:block md:w-1/2"></div>
-            <div
-              class="z-10 flex items-center justify-center w-20 h-20 bg-white border-4 border-blue-50 rounded-full shadow-sm overflow-hidden p-2">
-              <img src="book-icon.png" alt="Studies" class="w-full h-auto" />
-            </div>
-            <div class="md:w-1/2 w-full pl-12 text-left">
-              <span class="block text-xl font-bold text-gray-50">Sept 2021 - March 2023</span>
-              <h3 class="text-2xl font-extrabold text-gray-50 mb-2">My Break from Coding</h3>
-              <p class="text-gray-50 leading-relaxed">
-                I took a long break from coding to focus on my studies. My examinations were approaching, and I believed
-                that focusing on them was more important.
-              </p>
-            </div>
+
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="order-2 md:order-1 md:w-1/2 w-full pl-16 md:pl-0 md:pr-12 text-left md:text-right">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">July 2025</span>
+            <h3 class="text-2xl font-bold text-white mb-3">VJC 2025</h3>
+
+            <p class="text-gray-400 leading-relaxed">
+              Prior to the actual competition, I had to design my robot and build it. I thought a of a robot idea and
+              proceeded with it. My teammates were not very cooperative so i had to deal with them somehow. just kept
+              them busy with getting me the parts i needed or telling them to build parts of the robot so they don't
+              slack. If they did, i would just shout at them so that they work. From this experience I learnt how to be
+              a better leader
+            </p>
           </div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <img src="assets/Heavy_ROBO_PIC.jpeg" alt="VEX Based Crane" class="w-full h-full object-cover" />
+          </div>
+          <div class="hidden md:block md:order-3 md:w-1/2"></div>
 
         </div>
+
+
+
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="hidden md:block md:w-1/2"></div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <i class="fa-solid fa-book text-accent text-xl"></i>
+          </div>
+          <div class="md:w-1/2 w-full pl-16 md:pl-12 text-left">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">May 2025</span>
+            <h3 class="text-2xl font-bold text-white mb-3">RoboClash 2025</h3>
+            <p class="text-gray-400 leading-relaxed">
+              This competition was a new experience for me. I have never participated in a competition where we were
+              using proper electronics and 3d printed robots. This entire competition was made of flimsy 3d printed
+              parts and an ESP32. I remember that the wires were disconnected from the ESP32 and i had to solder it back
+              on. eventually we got 4th place, we would have placed better but my junior touched my robot 5 minutes
+              before the competition there was some technical error and i could not fix it in time. So we got 4th place.
+              I learnt to be more adaptable and patient after this competition
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="order-2 md:order-1 md:w-1/2 w-full pl-16 md:pl-0 md:pr-12 text-left md:text-right">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">April 2025</span>
+            <h3 class="text-2xl font-bold text-white mb-3">Flappy Bird</h3>
+
+            <p class="text-gray-400 leading-relaxed">
+              I Made this after learning Object Oriented Programming in C++. I had to download SFML and download assets
+              from the web to make this game. I thought downloading SFML would be a simple task. However, it proved to
+              be a real challenge. I had to search multiple tutorials to just get it working. I learnt to be resilient
+              and got better at C++, I have used this C++ knowledge in my 2025 VJC and Crane project.
+            </p>
+          </div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <img src="assets/Heavy_ROBO_PIC.jpeg" alt="VEX Based Crane" class="w-full h-full object-cover" />
+          </div>
+          <div class="hidden md:block md:order-3 md:w-1/2"></div>
+
+        </div>
+
+        <div class="mb-16 flex flex-col md:flex-row items-center w-full">
+          <div class="hidden md:block md:w-1/2"></div>
+          <div
+            class="absolute left-4 md:left-1/2 transform -translate-x-1/2 z-10 flex items-center justify-center w-16 h-16 bg-gray-950 border-2 border-accent rounded-full shadow-lg overflow-hidden">
+            <i class="fa-solid fa-book text-accent text-xl"></i>
+          </div>
+          <div class="md:w-1/2 w-full pl-16 md:pl-12 text-left">
+            <span class="block text-sm font-semibold text-accent tracking-widest uppercase mb-1">July 2024</span>
+            <h3 class="text-2xl font-bold text-white mb-3">VJC 2024</h3>
+            <p class="text-gray-400 leading-relaxed">
+              When the game first came out, I thought it would be simple to build a robot for this game. However, it was
+              not. I could not even come up with a viable design. In the end our robotics instructor gave us a hint for the 
+            </p>
+          </div>
+        </div>
+
       </div>
+
+
     </div>
   </section>
 
@@ -392,9 +505,11 @@
       <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
         <img class="rounded-3xl" src="assets/Tennis.jpeg" alt="">
         <h3 class="text-lg mb-2 font-semibold pt-10">Tennis</h3>
-        <p class="text-gray-400 text-sm flex-grow my-6">I like to play tennis in my free time, it is both healthy and
-          something I enjoy. I use to play at competitions but when COVID hit, I stopped. I picked it up again towards
-          the start of Secondary 3, and have been playing ever since!</p>
+        <p class="text-gray-400 text-sm flex-grow my-6">I like to play tennis in my free time. In fact, I used to go for
+          competitions when I was 9 years old. I only got to qualifiers that year though. The following year I wanted to
+          pursue other competitions but COVID hit and I stopped playing until early Secondary 2. I saw Rafael Nadal play
+          against Daniil Medvedev and won after a gruelling 5 hours. I was inspired to play after that match, so I found
+          a few like minded friends and played with them ever since!</p>
 
       </div>
 
@@ -403,9 +518,31 @@
         <img class="rounded-3xl invert" src="assets/Unreal.png" alt="">
         <h3 class="text-lg mb-2 font-semibold pt-10">Game Development</h3>
         <p class="text-gray-400 text-sm flex-grow my-6">During the december holidays i decided to try game Development.
-          I started learning unreal engine and i fell in love with it. However, after march, I had to limit this hobby
-          and use my time to study for my upcoming national exams. I will continue with Unreal Engine after my O levels
-          are over.</p>
+          After Playing Halo reach, the game pulled my heartstrings and I wanted to make something similar to it so i
+          got into gamedev. There was this company called Bungie that made this, They were really determined to make a
+          fun game for everybody to enjoy, i thought of doing the same so i decided to
+          start learning unreal engine( a game engine) and i really enjoyed it and have been doing it ever since.</p>
+
+      </div>
+
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl h-[320px]" src="assets/FL.jpg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Music Production</h3>
+        <p class="text-gray-400 text-sm flex-grow my-6">I used Garage band and FL studio to make my beats. I got
+          inspired after seeing this producer, Nick Mira, making beats within minutes and sounding majestic. I thought I
+          could do something similar. At first it sounded horrid but after some practise and learning how to mix
+          different sounds and hpw to use the Equaliser, I eventually got better at it and have been producing ever
+          since. </p>
+
+      </div>
+      <div class=" bg-gray-950 rounded-3xl p-6 border border-accent">
+        <img class="rounded-3xl h-[320px]" src="assets/Skateboard.jpeg" alt="">
+        <h3 class="text-lg mb-2 font-semibold pt-10">Skateboarding</h3>
+        <p class="text-gray-400 text-sm flex-grow my-6">I used to skateboard when I was 8 but i had a grave injury then
+          took a break for 5 years. In 2023 I watched a video part by Nyjah Houston, he performed some really tough
+          maneuvers really effortlessly, so I thought i could do the tricks as well. I then got into the hobby and
+          started practising daily at the skatepark near my house. I eventually mastered the Ollie, Shove it and
+          kickflip, I have been skateboarding ever since</p>
 
       </div>
 
@@ -436,7 +573,8 @@
             class=" text-gray-700 w-full border border-stone-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-stone-900"
             rows="3"></textarea>
         </div>
-        <button type="submit" class="px-4 py-2 bg-stone-900 text-white text-sm rounded">Send</button>
+        <button type="submit"
+          class="px-4 py-2 bg-[#34e995]  text-black text-sm rounded w-full transition hover:bg-[#45b480]">Send</button>
       </form>
     </div>
 
@@ -447,9 +585,11 @@
     <div class="flex items-center justify-between w-full  ">
       <p class="font-body px-16">© 2026 Divit Singhal, All rights reserved.</p>
       <div class="flex gap-5 fa-2x px-16 ">
-      <a target="_blank" href="https://github.com/LitzXBG" class="fa-brands fa-github"></a>
-      <a target="_blank" class="fa-brands fa-instagram" href=""></a>
-      <a target="_blank" class="fa-brands fa-linkedin" href=""></a>
+        <a target="_blank" href="https://github.com/LitzXBG" class="fa-brands fa-github"></a>
+        <a target="_blank" class="fa-brands fa-instagram"
+          href="https://www.instagram.com/dingus_chow?igsh=ZGkxcG1sdGN1eXR4"></a>
+        <a target="_blank" class="fa-brands fa-linkedin"
+          href="https://www.linkedin.com/in/divit-singhal-793527310?utm_source=share_via&utm_content=profile&utm_medium=member_ios"></a>
       </div>
     </div>
   </footer>
